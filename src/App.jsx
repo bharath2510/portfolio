@@ -6,7 +6,7 @@ const profile = {
   role: 'Frontend Developer Intern',
   location: 'Vellore, India',
   email: 'bharathkumar.mech25@gmail.com',
-  github: 'https://github.com/bharath1020',
+  github: 'https://github.com/bharath2510',
   intro: 'I develop responsive, interactive web interfaces using React, JavaScript, HTML, and CSS. My mechanical engineering background contributes a structured approach to technical problem-solving and attention to detail.',
   about: 'I am transitioning from mechanical engineering to frontend development. Since August 2026, I have been undertaking a one-year frontend development internship at Genetrobyte. My work includes developing a dashboard interface, building React components, styling responsive layouts, and implementing interactive features. My engineering experience also includes technical drawings, CAD tools, maintenance, and systematic troubleshooting.',
 }
