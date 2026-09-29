@@ -6,7 +6,7 @@ const profile = {
   role: 'Frontend Developer Intern',
   location: 'Vellore, India',
   email: 'bharathkumar.mech25@gmail.com',
-  github: 'https://github.com/bharath2510',
+  github: 'https://github.com/bharath1020',
   intro: 'I develop responsive, interactive web interfaces using React, JavaScript, HTML, and CSS. My mechanical engineering background contributes a structured approach to technical problem-solving and attention to detail.',
   about: 'I am transitioning from mechanical engineering to frontend development. Since August 2026, I have been undertaking a one-year frontend development internship at Genetrobyte. My work includes developing a dashboard interface, building React components, styling responsive layouts, and implementing interactive features. My engineering experience also includes technical drawings, CAD tools, maintenance, and systematic troubleshooting.',
 }
@@ -92,7 +92,7 @@ function App() {
             <div className="hero-index"><span>01 — 09</span><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
           </div>
           <figure className="hero-portrait">
-            <img src="/bharath-kumar-portrait.jpeg" alt="Portrait of Bharath Kumar S" />
+            <img src={`${import.meta.env.BASE_URL}bharath-kumar-portrait.jpeg`} alt="Portrait of Bharath Kumar S" />
             <span className="portrait-badge">ENGINEERING<br />PRECISION <span aria-hidden="true">×</span> FRONTEND</span>
             <figcaption>BHARATH KUMAR S <span>·</span> FRONTEND DEVELOPMENT</figcaption>
           </figure>
@@ -162,7 +162,7 @@ function App() {
         </section>
 
         <section className="resume-band section-wrap" id="resume">
-          <div className="resume-icon" aria-hidden="true">↓</div><div><span className="eyebrow">RESUME</span><h2>Download my resume.</h2><p>This document focuses on my mechanical engineering education and experience. My frontend internship is outlined on this portfolio.</p></div><a className="button button-light" href="/BharathKumar_S_Resume.pdf" download>Download PDF <span aria-hidden="true">↗</span></a>
+          <div className="resume-icon" aria-hidden="true">↓</div><div><span className="eyebrow">RESUME</span><h2>Download my resume.</h2><p>This document focuses on my mechanical engineering education and experience. My frontend internship is outlined on this portfolio.</p></div><a className="button button-light" href={`${import.meta.env.BASE_URL}BharathKumar_S_Resume.pdf`} download>Download PDF <span aria-hidden="true">↗</span></a>
         </section>
 
         <section className="contact-section" id="contact">
@@ -170,7 +170,7 @@ function App() {
         </section>
       </main>
 
-      <footer className="site-footer"><a className="wordmark" href="#home"><span className="wordmark-mark"><img src="/bharath-kumar-portrait.jpeg" alt="" /></span><span>{profile.name}<small>FRONTEND DEVELOPER</small></span></a><span>© {new Date().getFullYear()} {profile.name}. Built with React.</span><a href="#home">↑</a></footer>
+      <footer className="site-footer"><a className="wordmark" href="#home"><span className="wordmark-mark"><img src={`${import.meta.env.BASE_URL}bharath-kumar-portrait.jpeg`} alt="" /></span><span>{profile.name}<small>FRONTEND DEVELOPER</small></span></a><span>© {new Date().getFullYear()} {profile.name}. Built with React.</span><a href="#home">↑</a></footer>
     </>
   )
 }
